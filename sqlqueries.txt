@@ -1,0 +1,37 @@
+CREATE TABLE gamesessions (
+sessionid int PRIMARY KEY AUTO_INCREMENT,
+    pl1id int,
+    pl2id int,
+    box1 int,
+    box2 int,
+    box3 int,
+    box4 int,
+    box5 int,
+    box6 int,
+    box7 int,
+    box8 int,
+    box9 int,
+    pl1scr int,
+    pl2scr int ,
+    turn int,
+    count int
+    );
+CREATE TABLE online (
+    plrid int,
+    plrname text
+    );
+create TABLE requests (
+    senderid int,
+    sendername text,
+    recieverid int,
+    recievername text,
+    status int(1),
+    requestid int PRIMARY KEY AUTO_INCREMENT
+    
+    );
+CREATE TABLE users (
+    Id int PRIMARY KEY AUTO_INCREMENT,
+    username text,
+    password text
+    
+    );

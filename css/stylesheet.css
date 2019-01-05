@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#tictac-div {
+	
+	height:125.3333px;
+	width:97.3333px;
+	/*border:1px solid black;*/
+	float:left;
+	margin-left:30.333px;
+}
+
